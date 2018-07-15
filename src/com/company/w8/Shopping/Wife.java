@@ -6,10 +6,6 @@ public class Wife extends Person {
     public Husband husband;
     private ArrayList<Item> wifeList = new ArrayList<>();
 
-    public Wife(String name) {
-        super(name);
-    }
-
     public Wife(String name, Husband husband) {
         super(name);
         this.husband = husband;
